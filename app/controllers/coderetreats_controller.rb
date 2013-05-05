@@ -1,3 +1,5 @@
+require 'coderetreats/presenters/collection'
+
 class CoderetreatsController < ApplicationController
   Coderetreat = Struct.new :status, :location
   def running_today
