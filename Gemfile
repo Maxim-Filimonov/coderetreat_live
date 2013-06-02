@@ -20,3 +20,4 @@ group :test do
   gem 'cucumber-rails', :require => false
 end
 gem 'guard-rspec'
+gem 'guard-cucumber'
