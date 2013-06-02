@@ -1,4 +1,6 @@
 require 'coderetreats'
+require 'coderetreats/status'
+
 class CoderetreatsController < ApplicationController
   def running_today
     @coderetreats = CoderetreatLive::Coderetreats.running_today
